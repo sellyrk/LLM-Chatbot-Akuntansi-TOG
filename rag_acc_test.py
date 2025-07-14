@@ -27,6 +27,7 @@ else:
     context = "Tidak ada data relevan yang cocok secara otomatis, jelaskan manual."
 
 # 4. Kirim ke LLaMA via REST API
+# testing commit 
 response = requests.post(
     'http://localhost:11434/api/generate',
     json={
@@ -41,4 +42,4 @@ for line in response.text.splitlines():
     data = json.loads(line)
     if "response" in data:
         print(data["response"], end="", flush=True)
-print()  # newline
+print()  
