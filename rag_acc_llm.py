@@ -15,6 +15,7 @@ print(df.head())
 pertanyaan = input("\nMasukkan pertanyaan akuntansi: ")
 
 # ==== Prompt Revised ====
+# test perubahan 1
 prompt = f"""
 Kamu adalah asisten data accounting.
 File CSV memiliki kolom: Tanggal (datetime), Jenis (Pemasukan/Pengeluaran), Kategori, Jumlah (int), Deskripsi.
