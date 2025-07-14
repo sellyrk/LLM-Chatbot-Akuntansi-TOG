@@ -39,6 +39,7 @@ D, I = index.search(np.array(query_embedding), k)
 retrieved_contexts = [contexts[i] for i in I[0]]
 
 # Gabungkan context menjadi 1 string
+# PROMPT PERLU REVISI!
 context_string = "\n".join(retrieved_contexts)
 
 prompt = f"""
