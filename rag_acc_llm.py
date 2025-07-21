@@ -36,7 +36,7 @@ response = requests.post(
 )
 
 # ==== Parsing LLaMA Response ====
-# perubahan 1
+# perubahan 2
 result = ""
 for chunk in response.iter_lines():
     if chunk:
