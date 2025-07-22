@@ -6,6 +6,8 @@ import requests
 import json
 import re
 
+# OUTPUT DI SINI YG PERLU DIDEBUG
+
 # Load CSV
 df = pd.read_csv("transaksi.csv", sep=";")
 df.columns = df.columns.str.strip()
