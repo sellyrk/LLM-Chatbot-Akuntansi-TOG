@@ -3,4 +3,4 @@
 3. Memilih model agent yang paling sesuai untuk kasus cashflow akuntansi (berbahasa Indonesia, jawaban sederhana dan baik, memahami prompt user).
 4. Konsep chatbotnya berbasis AI dinamis (mampu menyimpan data dari input prompt dan menyimpannya, lalu memberi jawaban berdasarkan data yang sudah ada ataupun data baru) dan dapat otomatis mengkategorikan pengeluaran user masuk kemana. Poin plusnya nanti bisa ditambahkan fitur savings sesuai dengan permintaan atau goals dari user itu sendiri.
 5. Data hasil input akan disimpan dalam Vektor Database lalu digabungkan. Fungsi data hasil belajar LLM untuk LLMnya supaya mendapat gambaran kategori/keputusan dalam mengolah dataset baru/prompt baru dari user (yang kemungkinan prompt nya tidak bisa ditebak dan acak berdasarkan tipe pengetikan user masing-masing).
-6. Menyicil RAB/timeline pengerjaan setiap minggu?
+6. Menyicil BRD/timeline pengerjaan setiap minggu? Link: [https://docs.google.com/document/d/1oybnfCpnZpRDHeCGT2_NpHJmWTR13YtqEbyf0nk06ZM/edit?usp=sharing]
